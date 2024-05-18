@@ -38,7 +38,7 @@ public class Insert_Data_Class extends AppCompatActivity {
         binding = ActivityInsertDataClassBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         Window window =  this.getWindow();
-        window.setStatusBarColor(R.color.blue);
+        window.setStatusBarColor(getResources().getColor(R.color.blue));
 
         //shared preferences
 
