@@ -6,6 +6,7 @@ import android.app.AlarmManager;
 import android.app.Dialog;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
+import android.app.WallpaperInfo;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,6 +14,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -35,6 +37,8 @@ public class Insert_Data_Class extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityInsertDataClassBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        Window window =  this.getWindow();
+        window.setStatusBarColor(R.color.blue);
 
         //shared preferences
 
