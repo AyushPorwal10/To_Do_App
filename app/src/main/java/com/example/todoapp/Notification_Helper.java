@@ -13,7 +13,7 @@ import androidx.core.app.NotificationManagerCompat;
 public class Notification_Helper {
     public static void createNotification(Context context) {
         Intent intent = new Intent(context,MainActivity.class);
-
+        
         PendingIntent pendingIntent = PendingIntent.getActivity(context,MainActivity.REQUEST_CODE,intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, MainActivity.CHANNEL_ID)
