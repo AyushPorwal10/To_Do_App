@@ -12,13 +12,9 @@ A simple and productive to-do app that allows users to manage tasks efficiently.
 
 
 ## Screenshots 
-<table>
-  <tr>
-    <td>
-      <img src="path_to_image.jpg" alt="Image Description" width="200" height="150">
-    </td>
-  </tr>
-</table>
+<img src="images/add_task.jpg" alt="Image Description" width="300" height="600" />
+
+
 
 
 ## Technologies Used
