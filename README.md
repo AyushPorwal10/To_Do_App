@@ -1,30 +1,57 @@
-# To-Do App
+# 📝 To-Do App
 
-A simple and productive to-do app that allows users to manage tasks efficiently. Built using Java and XML for Android, the app enables users to create, update, and delete tasks, as well as set reminders for task notifications. The app utilizes Room Database for local storage.
+A simple and productive to-do app that helps users manage tasks efficiently. Built using Java and XML for Android, the app enables users to create, update, and delete tasks, as well as set reminders for notifications. It utilizes Room Database for local storage, ensuring that tasks are always accessible.
 
-## Features
+## ✨ Features
 
-- Create tasks with a title and description.
-- Update existing tasks.
-- Delete tasks when they are no longer needed.
-- Set a time for notifications to get reminders about tasks.
-- Uses Room Database for storing tasks locally on the device.
-
-
-## Screenshots 
-<img src="images/add_task.jpg" alt="Image Description" width="300" height="600" />
+- ✅ **Create Tasks**: Add tasks with a title and description.
+- ✏️ **Update Tasks**: Edit existing tasks to keep them up to date.
+- 🗑️ **Delete Tasks**: Remove tasks that are no longer needed.
+- ⏰ **Set Reminders**: Get notified about tasks by setting reminder times.
 
 
+## 📸 Screenshots
+<table>
+    <tr>
+        <td align="center">
+            <img src="images/add_task.jpg" alt="Add Task" width="300" height="600" />
+            <h3>📝 Add Daily Task</h3>
+        </td>
+        <td align="center">
+            <img src="images/all_task.jpg" alt="Home Page" width="300" height="600" />
+            <h3>🏠 Home Page</h3>
+        </td>
+        <td align="center">
+            <img src="images/choose_time.jpg" alt="Get Notified" width="300" height="600" />
+            <h3>⏰ Get Notified</h3>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="images/delete.jpg" alt="Delete Task" width="300" height="600" />
+            <h3>🗑️ Delete Task</h3>
+        </td>
+        <td align="center">
+            <img src="images/update.jpg" alt="Update Task" width="300" height="600" />
+            <h3>✏️ Update Task</h3>
+        </td>
+    </tr>
+</table>
+
+## 📱 Download APK
+
+Download the latest APK to install the app on your Android device 
+https://drive.google.com/file/d/14xnEgTy9yOGrUCOUPXLkLLJJCV56Ktre/view?usp=drive_link
 
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Programming Language:** Java
 - **UI Layout:** XML
 - **Database:** Room Database (SQLite)
 - **Notification:** Android AlarmManager/WorkManager for scheduling notifications
 
-## Setup Instructions
+## 🚀 Setup Instructions
 
 1. Clone the repository:
     ```bash
@@ -34,10 +61,4 @@ A simple and productive to-do app that allows users to manage tasks efficiently.
 3. Sync the project to download dependencies.
 4. Run the app on an Android device or emulator.
 
-## Screenshots
 
-_Add some screenshots of your app here to showcase its features._
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
