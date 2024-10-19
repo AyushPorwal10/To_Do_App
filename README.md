@@ -48,6 +48,7 @@ https://drive.google.com/file/d/14xnEgTy9yOGrUCOUPXLkLLJJCV56Ktre/view?usp=drive
 
 - **Programming Language:** Java
 - **UI Layout:** XML
+- **Architecture:** MVVM
 - **Database:** Room Database (SQLite)
 - **Notification:** Android AlarmManager/WorkManager for scheduling notifications
 
